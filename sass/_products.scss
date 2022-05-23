@@ -23,3 +23,13 @@
         }
     }
 }
+/* Mobile */
+@media (max-width: 739px) {
+    .product{
+        min-height: 400px;
+        margin-bottom: 20px;
+    }
+    .line{
+        display: none;
+    }
+  }

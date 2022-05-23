@@ -28,7 +28,7 @@
   }
   & .slogan::before {
       content: '';
-      background: url('http://mochimart.vn/uploads/plugin/custom_img/2019-07-19/1563517298-1094105602-custom.jpg') no-repeat;
+      background: url('../images/d1.jpg') no-repeat;
       position: absolute;
     height: 100%;
     width: 155%;
@@ -39,7 +39,7 @@
   }
   & .slogan::after {
     content: '';
-    background: url('http://mochimart.vn/uploads/plugin/custom_img/2019-07-19/1563519151-216168796-custom.png') no-repeat;
+    background: url('../images/d2.png') no-repeat;
     position: absolute;
     height: 115%;
     width: 100%;
@@ -47,4 +47,22 @@
     top: 15px;
   z-index: -1;
 }
+}
+/* Tablet */
+@media screen and (max-width: 1023px) {
+  .slogan::after {
+    display: none;
+  }
+}
+/* Mobile */
+@media (max-width: 739px) {
+  .intro {
+    padding: 0 !important;
+  }
+  .slogan::before {
+    right: 0 !important;
+  }
+  .bg-title{
+    padding: 0;
+  }
 }

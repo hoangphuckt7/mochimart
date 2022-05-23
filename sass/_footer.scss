@@ -1,0 +1,37 @@
+.footer {
+  display: block;
+  background-color: $dar-color;
+  color: $text-color;
+  & .logo {
+    width: 30%;
+  }
+  & .noidung {
+    width: 40%;
+  }
+  &-slogan {
+    padding: 30px;
+  }
+  a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+  }
+  li {
+    list-style: none;
+  }
+}
+/* Mobile */
+@media (max-width: 739px) {
+    .footer-slogan_item{
+        flex-direction: column;
+    }
+    .footer{
+        & .logo, & .noidung{
+            width: 100%;
+        }
+        &-cols{
+            flex-direction: column;
+            padding-bottom: 20px;
+        }
+    }
+  }

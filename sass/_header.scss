@@ -13,7 +13,7 @@
 
   &-center{
       &_image{
-          width: 409px;
+          width: 333px;
           height: 75px;
       }
       img{
@@ -32,4 +32,18 @@
           background-color: rgba(0,0,0,.07);
       }
   }
+}
+/* PC */
+@media (min-width: 1024px) {
+  .header-center_image{
+    width: 409px;
+  }
+}
+
+/* Tablet */
+@media screen and (max-width: 1023px) {
+}
+
+/* Mobile */
+@media (max-width: 739px) {
 }
